@@ -4,13 +4,14 @@
   "packageManager": "pnpm@10.13.1",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
     "format": "prettier \"src/**/*.{ts,tsx,json}\" --write"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/next-js": "^2.4.2",
     "@chakra-ui/react": "^2.10.9",
     "@emotion/react": "^11.14.0",
@@ -18,7 +19,9 @@
     "framer-motion": "^12.23.22",
     "next": "15.5.4",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "react-dropzone": "^14.3.8",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
