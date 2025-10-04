@@ -17,6 +17,10 @@ const nextConfig: NextConfig = {
     }
     return config
   },
+  devIndicators: {
+    buildActivity: true,
+    buildActivityPosition: 'bottom-right',
+  },
 }
 
 export default nextConfig
