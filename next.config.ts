@@ -1,6 +1,13 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  compiler: {
+    emotion: true,
+  },
+  experimental: {
+    optimizePackageImports: ['@chakra-ui/react', '@chakra-ui/icons', 'framer-motion'],
+  },
   webpack: (config, { dev }) => {
     if (dev) {
       config.watchOptions = {
@@ -8,7 +15,6 @@ const nextConfig: NextConfig = {
         aggregateTimeout: 200,
       }
     }
-
     return config
   },
 }
