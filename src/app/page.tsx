@@ -1,9 +1,12 @@
-import { Box, Heading } from '@chakra-ui/react'
+import { Box, Heading, VStack } from '@chakra-ui/react'
 
 export default function Home() {
   return (
-    <Box>
-      <Heading size="5xl">Home</Heading>
-    </Box>
+    <VStack align="start">
+      <Heading as="h2" size="3xl">
+        Home
+      </Heading>
+      <Box>xxxx</Box>
+    </VStack>
   )
 }
