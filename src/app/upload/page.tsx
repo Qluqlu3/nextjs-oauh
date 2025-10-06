@@ -5,7 +5,7 @@ import React, { useCallback, useState, useMemo } from 'react'
 import { Box, Heading, Image, useToast } from '@chakra-ui/react'
 import { CloseIcon } from '@chakra-ui/icons'
 
-import { ImageDropzone } from '@/components/ImageDropzone'
+import { ImageDropzone } from '@/app/_components/ImageDropzone'
 
 export default function Upload() {
   const [selectedImageFile, setSelectedImageFile] = useState<File | null>(null)
