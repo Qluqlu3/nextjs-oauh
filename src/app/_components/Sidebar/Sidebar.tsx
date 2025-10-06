@@ -11,6 +11,9 @@ export const Sidebar: React.FC = () => {
       <Box fontSize={27} p={2} w="full" display="flex" alignItems="center" cursor="pointer" _hover={{ bg: 'gray.300' }}>
         <Link href="/upload">Upload</Link>
       </Box>
+      <Box fontSize={27} p={2} w="full" display="flex" alignItems="center" cursor="pointer" _hover={{ bg: 'gray.300' }}>
+        <Link href="/form">Form</Link>
+      </Box>
     </VStack>
   )
 }
