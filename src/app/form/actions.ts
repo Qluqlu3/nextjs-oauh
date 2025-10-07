@@ -2,8 +2,8 @@
 
 // import { PrismaClient } from '@prisma/client'
 
-export async function saveFormData(formData: { name: string; email: string }) {
-  const { name, email } = formData
-  console.log('name', name)
-  console.log('email', email)
+export const saveFormData = async (formData: FormData) => {
+  console.log('name', formData.get('name'))
+  console.log('email', formData.get('email'))
+  return formData.get('name')
 }
