@@ -3,5 +3,9 @@
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "es5",
-  "printWidth": 120
+  "printWidth": 100,
+  "importOrder": ["^react", "^next", "^@chakra-ui/", "^@/components/", "^@/", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"]
 }
