@@ -3,9 +3,5 @@
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "es5",
-  "printWidth": 100,
-  "importOrder": ["^react", "^next", "^@chakra-ui/", "^@/components/", "^@/", "^[./]"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true,
-  "plugins": ["prettier-plugin-sort-imports"]
+  "printWidth": 110
 }
