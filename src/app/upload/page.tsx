@@ -1,9 +1,9 @@
 'use client'
 
-import React, { useCallback, useState, useMemo } from 'react'
+import React, { useCallback, useMemo, useState } from 'react'
 
-import { Box, Heading, Image, useToast } from '@chakra-ui/react'
 import { CloseIcon } from '@chakra-ui/icons'
+import { Box, Heading, Image, useToast } from '@chakra-ui/react'
 
 import { ImageDropzone } from '@/app/_components/ImageDropzone'
 
